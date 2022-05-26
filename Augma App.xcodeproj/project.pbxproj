@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		482E1ACD234A7EE900E53413 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 482E1ACC234A7EE900E53413 /* GoogleService-Info.plist */; };
+		48494D9C2359C31D00BAA564 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48494D9B2359C31D00BAA564 /* LoginViewController.swift */; };
+		4892FBFE2359B4C70091FADB /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892FBFD2359B4C70091FADB /* CreateViewController.swift */; };
+		48A62DDC2340217400936122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A62DDB2340217400936122 /* AppDelegate.swift */; };
+		48A62DDE2340217400936122 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A62DDD2340217400936122 /* ViewController.swift */; };
+		48A62DE32340217500936122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A62DE22340217500936122 /* Assets.xcassets */; };
+		48A62DE62340217500936122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A62DE42340217500936122 /* LaunchScreen.storyboard */; };
+		48A62DF12340217500936122 /* Augma_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A62DF02340217500936122 /* Augma_AppTests.swift */; };
+		48A62DFC2340217500936122 /* Augma_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A62DFB2340217500936122 /* Augma_AppUITests.swift */; };
+		48A62E0A234022E400936122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A62E09234022E400936122 /* Main.storyboard */; };
+		48A62E0D2340259800936122 /* GraidentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A62E0B2340259800936122 /* GraidentView.swift */; };
+		48FEB0722355B8B10006811A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FEB0712355B8B10006811A /* HomeViewController.swift */; };
+		53D001E983CFE9BD48F26B7C /* Pods_Augma_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBF246C86890F1194FD9766 /* Pods_Augma_AppTests.framework */; };
+		DAB87E8189D5425A0F70FA5D /* Pods_Augma_App_Augma_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AE179D9259D56116805EB6 /* Pods_Augma_App_Augma_AppUITests.framework */; };
+		E6FD76A557DF6331CA2A732C /* Pods_Augma_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0F69591F566BF00586A368 /* Pods_Augma_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48A62DED2340217500936122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48A62DD02340217400936122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A62DD72340217400936122;
+			remoteInfo = "Augma App";
+		};
+		48A62DF82340217500936122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48A62DD02340217400936122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A62DD72340217400936122;
+			remoteInfo = "Augma App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1902E1DD35ECCC6E86C61387 /* Pods-Augma AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Augma AppTests.release.xcconfig"; path = "Target Support Files/Pods-Augma AppTests/Pods-Augma AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1FBF246C86890F1194FD9766 /* Pods_Augma_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Augma_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF98377EE9FB723F98F0E24 /* Pods-Augma App-Augma AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Augma App-Augma AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Augma App-Augma AppUITests/Pods-Augma App-Augma AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		375168B56A0E3DEB0BB26A22 /* Pods-Augma App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Augma App.debug.xcconfig"; path = "Target Support Files/Pods-Augma App/Pods-Augma App.debug.xcconfig"; sourceTree = "<group>"; };
+		482E1ACC234A7EE900E53413 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		482F12EA234FA057007FBE8C /* Augma App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Augma App.entitlements"; sourceTree = "<group>"; };
+		48494D9B2359C31D00BAA564 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4892FBFD2359B4C70091FADB /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		48A62DD82340217400936122 /* Augma App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Augma App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A62DDB2340217400936122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48A62DDD2340217400936122 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48A62DE22340217500936122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48A62DE52340217500936122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48A62DE72340217500936122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A62DEC2340217500936122 /* Augma AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Augma AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A62DF02340217500936122 /* Augma_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Augma_AppTests.swift; sourceTree = "<group>"; };
+		48A62DF22340217500936122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A62DF72340217500936122 /* Augma AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Augma AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A62DFB2340217500936122 /* Augma_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Augma_AppUITests.swift; sourceTree = "<group>"; };
+		48A62DFD2340217500936122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A62E09234022E400936122 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		48A62E0B2340259800936122 /* GraidentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraidentView.swift; sourceTree = "<group>"; };
+		48FEB0712355B8B10006811A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		56AE179D9259D56116805EB6 /* Pods_Augma_App_Augma_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Augma_App_Augma_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0F69591F566BF00586A368 /* Pods_Augma_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Augma_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCBA5AB7A768C72FE795B4A /* Pods-Augma App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Augma App.release.xcconfig"; path = "Target Support Files/Pods-Augma App/Pods-Augma App.release.xcconfig"; sourceTree = "<group>"; };
+		ECD5CCE33CA26358023AB139 /* Pods-Augma AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Augma AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Augma AppTests/Pods-Augma AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FACFD44FA662FD5FDAA9AE1B /* Pods-Augma App-Augma AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Augma App-Augma AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Augma App-Augma AppUITests/Pods-Augma App-Augma AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A62DD52340217400936122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FD76A557DF6331CA2A732C /* Pods_Augma_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A62DE92340217500936122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D001E983CFE9BD48F26B7C /* Pods_Augma_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A62DF42340217500936122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB87E8189D5425A0F70FA5D /* Pods_Augma_App_Augma_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021C444215E6B76EE96B04B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F69591F566BF00586A368 /* Pods_Augma_App.framework */,
+				56AE179D9259D56116805EB6 /* Pods_Augma_App_Augma_AppUITests.framework */,
+				1FBF246C86890F1194FD9766 /* Pods_Augma_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48A62DCF2340217400936122 = {
+			isa = PBXGroup;
+			children = (
+				48A62DDA2340217400936122 /* Augma App */,
+				48A62DEF2340217500936122 /* Augma AppTests */,
+				48A62DFA2340217500936122 /* Augma AppUITests */,
+				48A62DD92340217400936122 /* Products */,
+				FC398EDED81F03D4DCB21D61 /* Pods */,
+				021C444215E6B76EE96B04B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48A62DD92340217400936122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48A62DD82340217400936122 /* Augma App.app */,
+				48A62DEC2340217500936122 /* Augma AppTests.xctest */,
+				48A62DF72340217500936122 /* Augma AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48A62DDA2340217400936122 /* Augma App */ = {
+			isa = PBXGroup;
+			children = (
+				482F12EA234FA057007FBE8C /* Augma App.entitlements */,
+				48A62DDB2340217400936122 /* AppDelegate.swift */,
+				48A62E0B2340259800936122 /* GraidentView.swift */,
+				482E1ACC234A7EE900E53413 /* GoogleService-Info.plist */,
+				48A62DDD2340217400936122 /* ViewController.swift */,
+				48FEB0712355B8B10006811A /* HomeViewController.swift */,
+				4892FBFD2359B4C70091FADB /* CreateViewController.swift */,
+				48494D9B2359C31D00BAA564 /* LoginViewController.swift */,
+				48A62E09234022E400936122 /* Main.storyboard */,
+				48A62DE22340217500936122 /* Assets.xcassets */,
+				48A62DE42340217500936122 /* LaunchScreen.storyboard */,
+				48A62DE72340217500936122 /* Info.plist */,
+			);
+			path = "Augma App";
+			sourceTree = "<group>";
+		};
+		48A62DEF2340217500936122 /* Augma AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				48A62DF02340217500936122 /* Augma_AppTests.swift */,
+				48A62DF22340217500936122 /* Info.plist */,
+			);
+			path = "Augma AppTests";
+			sourceTree = "<group>";
+		};
+		48A62DFA2340217500936122 /* Augma AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48A62DFB2340217500936122 /* Augma_AppUITests.swift */,
+				48A62DFD2340217500936122 /* Info.plist */,
+			);
+			path = "Augma AppUITests";
+			sourceTree = "<group>";
+		};
+		FC398EDED81F03D4DCB21D61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				375168B56A0E3DEB0BB26A22 /* Pods-Augma App.debug.xcconfig */,
+				DCCBA5AB7A768C72FE795B4A /* Pods-Augma App.release.xcconfig */,
+				FACFD44FA662FD5FDAA9AE1B /* Pods-Augma App-Augma AppUITests.debug.xcconfig */,
+				1FF98377EE9FB723F98F0E24 /* Pods-Augma App-Augma AppUITests.release.xcconfig */,
+				ECD5CCE33CA26358023AB139 /* Pods-Augma AppTests.debug.xcconfig */,
+				1902E1DD35ECCC6E86C61387 /* Pods-Augma AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48A62DD72340217400936122 /* Augma App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A62E002340217500936122 /* Build configuration list for PBXNativeTarget "Augma App" */;
+			buildPhases = (
+				61F6246AC0B0D2EB05E6934E /* [CP] Check Pods Manifest.lock */,
+				48A62DD42340217400936122 /* Sources */,
+				48A62DD52340217400936122 /* Frameworks */,
+				48A62DD62340217400936122 /* Resources */,
+				C966223C9938CD72EBBECC6C /* [CP] Embed Pods Frameworks */,
+				6F4FAE2EA0677D64E48E766F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Augma App";
+			productName = "Augma App";
+			productReference = 48A62DD82340217400936122 /* Augma App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48A62DEB2340217500936122 /* Augma AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A62E032340217500936122 /* Build configuration list for PBXNativeTarget "Augma AppTests" */;
+			buildPhases = (
+				ABF80ABDD4B510BF98825804 /* [CP] Check Pods Manifest.lock */,
+				48A62DE82340217500936122 /* Sources */,
+				48A62DE92340217500936122 /* Frameworks */,
+				48A62DEA2340217500936122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48A62DEE2340217500936122 /* PBXTargetDependency */,
+			);
+			name = "Augma AppTests";
+			productName = "Augma AppTests";
+			productReference = 48A62DEC2340217500936122 /* Augma AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48A62DF62340217500936122 /* Augma AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A62E062340217500936122 /* Build configuration list for PBXNativeTarget "Augma AppUITests" */;
+			buildPhases = (
+				971B9371A22D6B625A6AA39A /* [CP] Check Pods Manifest.lock */,
+				48A62DF32340217500936122 /* Sources */,
+				48A62DF42340217500936122 /* Frameworks */,
+				48A62DF52340217500936122 /* Resources */,
+				E74C32D3C467D92B55A79439 /* [CP] Embed Pods Frameworks */,
+				B01711CA61961303ABF4E98A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48A62DF92340217500936122 /* PBXTargetDependency */,
+			);
+			name = "Augma AppUITests";
+			productName = "Augma AppUITests";
+			productReference = 48A62DF72340217500936122 /* Augma AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48A62DD02340217400936122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Augma;
+				TargetAttributes = {
+					48A62DD72340217400936122 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					48A62DEB2340217500936122 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 48A62DD72340217400936122;
+					};
+					48A62DF62340217500936122 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 48A62DD72340217400936122;
+					};
+				};
+			};
+			buildConfigurationList = 48A62DD32340217400936122 /* Build configuration list for PBXProject "Augma App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48A62DCF2340217400936122;
+			productRefGroup = 48A62DD92340217400936122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A62DD72340217400936122 /* Augma App */,
+				48A62DEB2340217500936122 /* Augma AppTests */,
+				48A62DF62340217500936122 /* Augma AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48A62DD62340217400936122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A62DE62340217500936122 /* LaunchScreen.storyboard in Resources */,
+				482E1ACD234A7EE900E53413 /* GoogleService-Info.plist in Resources */,
+				48A62DE32340217500936122 /* Assets.xcassets in Resources */,
+				48A62E0A234022E400936122 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A62DEA2340217500936122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A62DF52340217500936122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61F6246AC0B0D2EB05E6934E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Augma App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4FAE2EA0677D64E48E766F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Augma App/Pods-Augma App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Augma App/Pods-Augma App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Augma App/Pods-Augma App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971B9371A22D6B625A6AA39A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Augma App-Augma AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF80ABDD4B510BF98825804 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Augma AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B01711CA61961303ABF4E98A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Augma App-Augma AppUITests/Pods-Augma App-Augma AppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Augma App-Augma AppUITests/Pods-Augma App-Augma AppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Augma App-Augma AppUITests/Pods-Augma App-Augma AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C966223C9938CD72EBBECC6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Augma App/Pods-Augma App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Augma App/Pods-Augma App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Augma App/Pods-Augma App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74C32D3C467D92B55A79439 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Augma App-Augma AppUITests/Pods-Augma App-Augma AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Augma App-Augma AppUITests/Pods-Augma App-Augma AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Augma App-Augma AppUITests/Pods-Augma App-Augma AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A62DD42340217400936122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48494D9C2359C31D00BAA564 /* LoginViewController.swift in Sources */,
+				4892FBFE2359B4C70091FADB /* CreateViewController.swift in Sources */,
+				48A62DDE2340217400936122 /* ViewController.swift in Sources */,
+				48A62E0D2340259800936122 /* GraidentView.swift in Sources */,
+				48A62DDC2340217400936122 /* AppDelegate.swift in Sources */,
+				48FEB0722355B8B10006811A /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A62DE82340217500936122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A62DF12340217500936122 /* Augma_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A62DF32340217500936122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A62DFC2340217500936122 /* Augma_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48A62DEE2340217500936122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48A62DD72340217400936122 /* Augma App */;
+			targetProxy = 48A62DED2340217500936122 /* PBXContainerItemProxy */;
+		};
+		48A62DF92340217500936122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48A62DD72340217400936122 /* Augma App */;
+			targetProxy = 48A62DF82340217500936122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48A62DE42340217500936122 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A62DE52340217500936122 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48A62DFE2340217500936122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48A62DFF2340217500936122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48A62E012340217500936122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375168B56A0E3DEB0BB26A22 /* Pods-Augma App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Augma App/Augma App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = LNAWX59SAA;
+				INFOPLIST_FILE = "Augma App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Augma.art;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		48A62E022340217500936122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCBA5AB7A768C72FE795B4A /* Pods-Augma App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Augma App/Augma App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = LNAWX59SAA;
+				INFOPLIST_FILE = "Augma App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Augma.art;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		48A62E042340217500936122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD5CCE33CA26358023AB139 /* Pods-Augma AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9S74NJA8U;
+				INFOPLIST_FILE = "Augma AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Augma.Augma-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Augma App.app/Augma App";
+			};
+			name = Debug;
+		};
+		48A62E052340217500936122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1902E1DD35ECCC6E86C61387 /* Pods-Augma AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9S74NJA8U;
+				INFOPLIST_FILE = "Augma AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Augma.Augma-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Augma App.app/Augma App";
+			};
+			name = Release;
+		};
+		48A62E072340217500936122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FACFD44FA662FD5FDAA9AE1B /* Pods-Augma App-Augma AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9S74NJA8U;
+				INFOPLIST_FILE = "Augma AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Augma.Augma-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Augma App";
+			};
+			name = Debug;
+		};
+		48A62E082340217500936122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF98377EE9FB723F98F0E24 /* Pods-Augma App-Augma AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9S74NJA8U;
+				INFOPLIST_FILE = "Augma AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Augma.Augma-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Augma App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48A62DD32340217400936122 /* Build configuration list for PBXProject "Augma App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A62DFE2340217500936122 /* Debug */,
+				48A62DFF2340217500936122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A62E002340217500936122 /* Build configuration list for PBXNativeTarget "Augma App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A62E012340217500936122 /* Debug */,
+				48A62E022340217500936122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A62E032340217500936122 /* Build configuration list for PBXNativeTarget "Augma AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A62E042340217500936122 /* Debug */,
+				48A62E052340217500936122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A62E062340217500936122 /* Build configuration list for PBXNativeTarget "Augma AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A62E072340217500936122 /* Debug */,
+				48A62E082340217500936122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48A62DD02340217400936122 /* Project object */;
+}
